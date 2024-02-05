@@ -1,0 +1,22 @@
+footer {
+  background-color: #c90000;
+  color: aliceblue;
+  text-align: center;
+}
+.navbar-brand {
+  color: #ffffff;
+}
+.nav-link {
+  color: rgb(255, 240, 240);
+}
+.navbar-nav {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li:hover {
+  color: black;
+}
