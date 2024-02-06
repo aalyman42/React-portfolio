@@ -13,20 +13,18 @@ export default function Home() {
             life! I am married to my beautiful wife Kyleigh and we live with our
             dog Opal.{" "}
           </p>
-          <p>
-            In my bachelor program at the University of northern Colorado, I
-            majored in Journalism and minored in Earth Science. I have always
-            felt draws to both the creative and the concrete which all lends
-            itself fantastically to coding where exisiting in a system and
-            thinking out of the box are equally important.{" "}
-          </p>
-          <p>
-            {" "}
-            In my free time I love playing video games and reading Japanese
-            Manga. I love almost all things geeky from D&D to Doctor Who.
-          </p>
-
           <button type="button" class="btn btn-danger">
+            <Link
+              to="/Resume"
+              className={
+                currentPage === "/Resume" ? "nav-link active" : "nav-link"
+              }
+              class="nav-link"
+            >
+              My skills and work history
+            </Link>
+          </button>
+          <button type="button" class="btn btn-danger mx-3">
             <Link
               to="/About"
               className={
@@ -34,7 +32,7 @@ export default function Home() {
               }
               class="nav-link"
             >
-              My skills and work history
+              More About me
             </Link>
           </button>
         </div>

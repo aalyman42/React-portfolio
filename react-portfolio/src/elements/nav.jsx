@@ -43,6 +43,15 @@ function Nav() {
             >
               Contact
             </Link>
+            <Link
+              to="/Resume"
+              className={
+                currentPage === "/Resume" ? "nav-link active" : "nav-link"
+              }
+              class="nav-link"
+            >
+              Resume
+            </Link>
           </div>
           <br />
           <img class="navlogo" src=""></img>

@@ -54,6 +54,17 @@ function footer() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link
+                  to="/Resume"
+                  className={
+                    currentPage === "/Resume" ? "nav-link active" : "nav-link"
+                  }
+                  class="nav-link"
+                >
+                  Resume
+                </Link>
+              </li>
             </ul>
           </div>
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
