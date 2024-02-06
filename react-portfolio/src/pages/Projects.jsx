@@ -1,5 +1,5 @@
 import projects from "./data/projects";
-
+import "./styles/main.css";
 export default function Projects() {
   console.log(projects);
   return (
@@ -22,12 +22,12 @@ export default function Projects() {
                   </ul>
                   <p class="card-text ">
                     <a href={project.gitLink} target="_blank">
-                      <button type="button" class="btn btn-danger">
+                      <button type="button" class="btn btn-success">
                         Check out the Repo
                       </button>
                     </a>
                     <a href={project.deployLink} target="_blank">
-                      <button type="button" class="btn btn-danger mx-2">
+                      <button type="button" class="btn btn-success mx-2">
                         Deployed Site
                       </button>
                     </a>

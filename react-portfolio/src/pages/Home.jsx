@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import "./styles/home.css";
+import "./styles/main.css";
 export default function Home() {
   const currentPage = useLocation().pathname;
   return (
@@ -13,7 +13,7 @@ export default function Home() {
             life! I am married to my beautiful wife Kyleigh and we live with our
             dog Opal.{" "}
           </p>
-          <button type="button" class="btn btn-danger">
+          <button type="button" class="btn btn-success">
             <Link
               to="/Resume"
               className={
@@ -24,7 +24,7 @@ export default function Home() {
               My skills and work history
             </Link>
           </button>
-          <button type="button" class="btn btn-danger mx-3">
+          <button type="button" class="btn btn-success mx-3">
             <Link
               to="/About"
               className={
@@ -48,7 +48,7 @@ export default function Home() {
                 skillsets. Across all of them are an overarching practice at
                 coding as a team and managing a gitflow.
               </p>
-              <button type="button" class="btn btn-danger">
+              <button type="button" class="btn btn-success">
                 <Link
                   to="/Projects"
                   className={
@@ -72,7 +72,7 @@ export default function Home() {
                 reach out! I would love to be in contact and talk about any
                 projects you are working on.
               </p>
-              <button type="button" class="btn btn-danger">
+              <button type="button" class="btn btn-success">
                 <Link
                   to="/Contact"
                   className={
