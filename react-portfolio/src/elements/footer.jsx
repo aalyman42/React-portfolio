@@ -70,13 +70,13 @@ function footer() {
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>{" "}
             <a href="https://github.com/aalyman42" class="mx-2" target="_blank">
-              <img src="/github.svg" alt="Github logo" />
+              <img src="/images/github.svg" alt="Github logo" />
             </a>
             <a
               href="https://www.linkedin.com/in/aaron-lyman-b2171315a/"
               target="_blank"
             >
-              <img src="/LinkedIn.svg" alt="LinkedIn logo" />
+              <img src="/images/LinkedIn.svg" alt="LinkedIn logo" />
             </a>
           </div>
         </div>

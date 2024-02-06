@@ -6,7 +6,7 @@ const projects = [
     skills: ["CSS Bootstrap", "Server side APIs", "HTML", "Gitflow", "J-query"],
     gitLink: "https://github.com/dccreger/brewery-find",
     deployLink: "https://dccreger.github.io/brewery-find/",
-    imgSrc: "/Aletrail.png",
+    imgSrc: "/images/Aletrail.png",
   },
   {
     name: "SummitQuest",
@@ -21,7 +21,7 @@ const projects = [
     ],
     gitLink: "https://github.com/gabelats/SummitQuest",
     deployLink: "https://summitquest-babysteps-2f40964da154.herokuapp.com",
-    imgSrc: "/summitQuest.JPG",
+    imgSrc: "/images/summitQuest.JPG",
   },
   {
     name: "Project 3 - Coming Soon",
@@ -30,7 +30,7 @@ const projects = [
     skills: ["MongoDB", "React", "GraphQL", "Agile Methodology"],
     gitLink: "",
     deployLink: "",
-    imgSrc: "/coming_soon.png",
+    imgSrc: "/images/coming_soon.png",
   },
   {
     name: "Other Projects - Coming Soon",
@@ -38,7 +38,7 @@ const projects = [
     skills: ["MongoDB", "React", "GraphQL", "Agile Methodology"],
     gitLink: "",
     deployLink: "",
-    imgSrc: "/coming_soon.png",
+    imgSrc: "/images/coming_soon.png",
   },
 ];
 
