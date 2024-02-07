@@ -1,7 +1,6 @@
 import projects from "./data/projects";
 import "./styles/main.css";
 export default function Projects() {
-  console.log(projects);
   return (
     <div>
       <h2 class="text-center">Projects</h2>
