@@ -1,19 +1,58 @@
-export default function Home() {
+import employment from "./data/employment";
+import skills from "./data/skills";
+export default function Resume() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-sm-12 col-md-4">
+          <h2 class="my-3">Employment</h2>
+          <br />
+          {employment.map((history) => (
+            <div>
+              <h4>{history.jobTitle}</h4>
+              <h6>{history.company}</h6>
+              <h6>{history.time}</h6>
+              <br />
+              <br />
+            </div>
+          ))}{" "}
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <h2 class="my-3">Education</h2>
+          <br />
+          <h4>University of Denver</h4>
+          <h6>Full Stack Development Booot Camp</h6>
+          <h6> November 2023 - February 2024</h6>
+          <br />
+          <br />
+          <h4>University of Norther Colorado</h4>
+          <h6>BA Major: Journalism | Minor: Earth Science</h6>
+          <h6>August 2015 - May 2020</h6>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <h2 class="my-3"> Skills </h2>
+          <ul>
+            {skills.map((skill) => (
+              <li>{skill}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <h2>Resume</h2>
+            <p>Download my full resume as a PDF</p>
+            <a
+              href="./docs/Aaron_Lyman_-_Junior_Developer.pdf"
+              download="Aaron_Lyman_Resume"
+            >
+              <button class="btn btn-success">Download Now</button>
+            </a>
+          </div>
+        </div>
+        <br />
+      </div>
     </div>
   );
 }
