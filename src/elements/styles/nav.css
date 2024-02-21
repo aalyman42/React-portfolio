@@ -1,13 +1,13 @@
 .navbar {
-  background-color: #0dc277;
-  color: aliceblue;
+  background-color: #05000f;
 }
 .navbar-brand {
   color: #ffffff;
 }
-.nav-link {
-  color: rgb(255, 240, 240);
-  text-decoration: underline
-  text-decoration-color: blue;
+.navbar-nav {
+  color: rgb(253, 201, 104);
+  text-decoration: underline;
 }
-
+navbar-nav .nav-link {
+  color: sandybrown;
+}

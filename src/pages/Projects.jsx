@@ -14,19 +14,19 @@ export default function Projects() {
                   <h4 class="card-title">{project.name}</h4>
                   <p class="card-text">{project.description}</p>
                   <h5>Developed Skills:</h5>
-                  <ul class="list-group list-group-flush">
+                  <ul>
                     {project.skills.map((skill) => (
                       <li class="list-group-item">{skill}</li>
                     ))}
                   </ul>
                   <p class="card-text ">
                     <a href={project.gitLink} target="_blank">
-                      <button type="button" class="btn btn-success">
+                      <button type="button" class="btn btn-custom">
                         Check out the Repo
                       </button>
                     </a>
                     <a href={project.deployLink} target="_blank">
-                      <button type="button" class="btn btn-success mx-2">
+                      <button type="button" class="btn btn-custom mx-2">
                         Deployed Site
                       </button>
                     </a>

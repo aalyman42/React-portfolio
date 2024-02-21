@@ -64,7 +64,7 @@ export default function Contact() {
             onChange={handleFormChange}
           />
         </div>
-        <button class="btn btn-success">Send Message</button>
+        <button class="btn btn-custom">Send Message</button>
       </form>
     </div>
   );

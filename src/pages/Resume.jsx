@@ -1,5 +1,6 @@
 import employment from "./data/employment";
 import skills from "./data/skills";
+import "./styles/main.css";
 export default function Resume() {
   return (
     <div class="container">
@@ -47,7 +48,7 @@ export default function Resume() {
               href="./docs/Aaron_Lyman_-_Junior_Developer.pdf"
               download="Aaron_Lyman_Resume"
             >
-              <button class="btn btn-success">Download Now</button>
+              <button class="btn btn-custom">Download Now</button>
             </a>
           </div>
         </div>

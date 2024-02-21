@@ -12,6 +12,7 @@ const skills = [
   "CSS",
   "HTML",
   "Gitflow",
+  "PWA",
 ];
 
 export default skills;
